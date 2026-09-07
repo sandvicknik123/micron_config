@@ -1,0 +1,8 @@
+.moonraker.conf.bkp
+KlipperScreen.conf
+calibration_*.png
+printer-*.cfg
+*.backup
+*-backup.cfg
+mainsail.cfg
+moonraker.conf

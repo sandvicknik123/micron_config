@@ -1,0 +1,33 @@
+Pluck test: the head parks at the REAR so the side spans are at their longest. On the display cue, pluck the LONGEST free span of each belt (a side span on small printers, the front span on big ones) mid-span, like a guitar string — pull ~5 mm sideways, release sharply. Pluck HARD; equal spans for both belts. Each belt needs two agreeing plucks.
+Capturing the quiet reference (do not touch)...
+   ambient lines excluded: 280 Hz, 295 Hz, 259 Hz, 286 Hz
+Axis calibration: ok — lines will carry polarization (along-belt = tension pump at 2f)
+>> Ready: belt A in 3s
+>> PLUCK belt A now! (listening 5s...)
+   belt A try 1: [132(x2311 Y)]
+>> Belt A heard — once more
+>> Ready: belt A in 3s
+>> PLUCK belt A now! (listening 5s...)
+   belt A try 2: [132(x2222 Y)]
+   belt A: family 131.9 Hz seen 2x (pol=Y)
+>> Ready: belt B in 3s
+>> PLUCK belt B now! (listening 5s...)
+   belt B try 1: [241(x30 X)]
+>> Belt B heard — once more
+>> Ready: belt B in 3s
+>> PLUCK belt B now! (listening 5s...)
+   belt B try 2: [136(x219)]
+>> Belt B heard — once more
+>> Ready: belt B in 3s
+>> PLUCK belt B now! (listening 5s...)
+   belt B try 3: [136(x436 Y)]
+   belt B: family 136.0 Hz seen 2x (pol=Y)
+belt A: 131.9 Hz (pol=Y, seen 2x) -> fundamental 65.9 Hz (axial pump /2)
+belt B: 136.0 Hz (pol=Y, seen 2x) -> fundamental 68.0 Hz (axial pump /2)
+
+=== Belt tension (pluck) ===
+Belt A fundamental 65.9 Hz  |  Belt B 68.0 Hz
+Tension A vs B: -6%  (T ~ f^2: (65.9/68.0)^2 = 0.94)
+Belts matched: A 66 / B 68 Hz (tension -6%)
+
+This is the transverse string mode — the one that IS tension (f ~ sqrt(T)); equal spans compare directly. After adjusting, re-run to confirm the move.
